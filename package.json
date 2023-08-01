@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "turbo": "^1.10.11"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/server/dist/main"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
